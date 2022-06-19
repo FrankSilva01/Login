@@ -1,0 +1,179 @@
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:white;
+}
+
+body {
+    background-color: rgb(93, 162, 185);
+}
+
+input {
+    border: 1.8px solid black;
+    color: white;
+    background-color: rgb(144, 188, 202);
+    width: 250px;
+    height: 50px;
+}
+
+/* Frase do lado Esquerdo */
+
+h1 {
+    width: 350px;
+    position: relative;
+    left: 760px;
+    top: 50px;
+}
+
+/* Login Header */
+
+h2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+}
+
+/*  Modificação dos links */
+
+a {
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+/* Parte esquerda */
+
+.esquerda {
+
+    position: relative;
+    top: 140px;
+    
+    text-align: center;
+    width: 50%;
+
+}
+
+/* Parte direita */
+
+.direita {
+
+    margin-left: 50%;
+    text-align: right;
+    width: 450px;
+
+}
+
+/* Imagem */
+
+.imagem {
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 280px;
+    position: relative;
+    top: 50px;
+    left: 800px;
+
+}
+
+/* Container da parte direita */
+
+.login {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: black;
+    position: relative;
+    bottom: 320px;
+    text-align: center;
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    padding-top: 40px;
+    margin: 5px;
+    border-radius: 50px;
+    box-shadow: 5px 4px 3px rgb(65, 104, 116);
+
+}
+
+/* Botao de login */
+
+.botao {
+
+    font-weight:700;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(16, 156, 202);
+    text-align: center;
+    width: 250px;
+    height: 1rem;
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 120px;
+    border-radius: 40px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 0.5px 1.5px solid black;
+
+}
+
+.botao:hover {
+
+    box-shadow: 5px 4px 3px rgb(2, 68, 90);
+
+}
+
+/* área do cadastro */
+
+.cadastro {
+
+    color: black;
+    font-size: 14px;
+    width: 200px;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+    top: 22px;
+
+}
+
+/* área do recuperar acesso */
+
+.recuperar-conta {
+    
+    color: black;
+    font-size: 14px;
+    width: 200px;
+    text-decoration: none;
+    margin-left: 10vw;
+    position: relative;
+    bottom: -6px;
+    cursor: pointer;
+
+}
+
+/* Botao de login google */
+
+.g-signin2 {
+
+    background-color: black;
+    outline: none;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 190px;
+    
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="998899405344-gh6ukfc1259e5bopnlpmnvistlei04it.apps.googleusercontent.com">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tela Inicial</title>
+</head>
+<body>
+
+<!-- Parte ESQUERDA do Layout -->
+
+    <div class="esquerda">
+
+        <h1>Faça login! <br> Encontre a ferramenta que precisa aonde estiver!</h1>
+        <img class="imagem" src="./img/Humaaans - Wireframe.png"> 
+        <!-- <img class="imagem" src="./img/5fe1d2f5cc3e6faced4751c7_16.png"> -->
+
+    </div>
+
+    <!-- Parte Direita do Layout -->
+
+    <div class="direita">
+
+        <section class="login">
+
+            <h2>Login</h2><br>
+
+                Usuario<br><br>
+                 <input placeholder="Digite seu login">
+               
+
+                 <br> <br>Senha <br><br>
+                <input placeholder="Digite sua senha" type="password" type="password">  
+
+        
+
+                <div class="botao" onmouseover="">
+                    Entrar
+                </div>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+                <div class="cadastro">Não tem conta? <a href="#">Crie agora</a></div>
+                <div class="recuperar-conta">Esqueceu a senha? <a href="#">Clique aqui</a></div>
+
+
+        </section>
+
+
+    </div>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
